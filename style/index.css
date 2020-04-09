@@ -89,8 +89,10 @@ h2{
 
 footer {
     text-align: center;
-    display:flex;
+    /* display:flex;
+    justify-content: center;
     flex-direction: row-reverse;
+    align-items: center; */
     bottom: 0;
     height:60px;
     top: -40px;
@@ -103,9 +105,26 @@ footer a{
     font-size: 20px;
     text-decoration: none;
     color: black;
-    background-color: dodgerblue;
 }
 .SocialMedia{
     display: flex;
     align-items: flex-start;
+}
+.contact{
+    /* display: inline-block;
+    text-align: center;
+    font-size: 16px; */
+  border: none;
+  color: white;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 15px;
+}
+.ProjectFooter {
+    text-align: left;
+    position: bottom;
+    top: -90px;
+    margin-bottom: 10px;
 }
