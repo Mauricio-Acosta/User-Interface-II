@@ -20,9 +20,85 @@ font: inherit;
 vertical-align: baseline;  
 }
 
-/* General Styles*/
-
 
 body{
-    background-color: blue;
+    background-color: lightgrey;
+}
+
+/* Header and Nav*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 45px;
+    margin: 10px;
+}
+
+.TopNav a {
+    margin:0.5%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.TopNav a:hover {
+    border: 2px solid black;
+    position: relative;
+}
+
+h2{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/*Introduction*/
+
+.intro {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 20%;
+    margin-bottom: 5%;
+    top: -400px;
+}
+
+/*Body*/
+
+.largephoto img{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.projects{
+    display: flex;
+    align-items: flex-start;
+}
+.projects img {
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    border-color: 2px solid black;
+    bottom: 0;
+    height:60px;
+    top: -40px;
+}
+footer a{
+    margin: 2%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: lightpink;
 }
