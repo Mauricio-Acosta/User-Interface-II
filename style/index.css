@@ -37,6 +37,7 @@ header{
 h1 {
     font-size: 45px;
     margin: 10px;
+    background-color:firebrick;
 }
 
 .TopNav a {
@@ -89,16 +90,22 @@ h2{
 footer {
     text-align: center;
     display:flex;
-    flex-direction:column;
-    border-color: 2px solid black;
+    flex-direction: row-reverse;
     bottom: 0;
     height:60px;
     top: -40px;
+    margin-top: 10%;
+    padding: 0.5%;
+    background-color: lightpink;
 }
 footer a{
     margin: 2%;
     font-size: 20px;
     text-decoration: none;
     color: black;
-    background-color: lightpink;
+    background-color: dodgerblue;
+}
+.SocialMedia{
+    display: flex;
+    align-items: flex-start;
 }
