@@ -35,14 +35,14 @@ header{
 
 
 h1 {
-    font-size: 45px;
-    margin: 10px;
+    font-size: 4.5rem;
+    margin: 100%;
     background-color:firebrick;
 }
 
 .TopNav a {
     margin:0.5%;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
     color: black;
 }
@@ -53,8 +53,8 @@ h1 {
 }
 
 h2{
-    margin: 10px;
-    margin-bottom: 20px;
+    margin: 100%;
+    margin-bottom: 200%;
     font-size: 40px;
 }
 
@@ -62,7 +62,7 @@ h2{
 
 .intro {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin: 0 20%;
     margin-bottom: 5%;
     top: -400px;
@@ -127,4 +127,37 @@ footer a{
     position: bottom;
     top: -90px;
     margin-bottom: 10px;
+}
+
+.hidden{
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+@media (max-width:850px) {
+    .contact{
+      border: none;
+      color: white;
+      padding: 1px 5px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .intro {
+        text-align: center;
+        font-size: 18px;
+        margin: 0 20%;
+        margin-bottom: 5%;
+        top: -4000%;
+    }
 }
